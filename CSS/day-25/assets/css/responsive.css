@@ -1,0 +1,54 @@
+@media only screen and (max-width:1200px) {
+    .box{
+        width: 200px;
+        height: 200px;
+        background: #ff7300;
+        border-radius: 50%;
+    } 
+}
+@media only screen and (max-width:991px) {
+    .box{
+        width: 200px;
+        height: 200px;
+        background: #ff5900;
+        border-radius: 50%;
+    } 
+    .pattern{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media only screen and (max-width:768px) {
+    .box{
+        width: 200px;
+        height: 200px;
+        background: #e1ff00;
+        border-radius: 50%;
+    } 
+}
+@media only screen and (max-width:480px) {
+    .pattern{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+        background: #ff002f;
+        border-radius: 50%;
+    } 
+    nav ul{
+        
+        flex-direction: column;
+    }
+    .burger{
+        display: block;
+    }
+}
+@media only screen and (max-width:320px) {
+    .box{
+        width: 200px;
+        height: 200px;
+        background: #072262;
+        border-radius: 50%;
+    } 
+  
+}

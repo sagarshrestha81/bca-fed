@@ -1,0 +1,46 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Header */
+
+header{
+    display: flex;
+    background: #6e3098;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid rgba(255,255,255,.2);
+}
+nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    
+  
+}
+nav ul a{
+    color: #ffffff;
+}
+
+
+.logo img{
+    width: 120px;
+}
+.search svg{
+    color: #ffffff;
+}

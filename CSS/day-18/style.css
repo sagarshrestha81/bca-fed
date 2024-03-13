@@ -1,0 +1,22 @@
+.box{
+    width: 500px;
+    height: 500px;
+    /* position: relative; */
+    top: 20px;
+    left: 20px;
+    background: #ff0000;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    /* position: relative; */
+    top: 20px;
+    left: 20px;
+    background: #ff0000;
+}
+.inner-box{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background: #00ff00;
+}
