@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <h1>Admission form</h1>
+    <form action="#" method="get" onsubmit="return false;">
+        <div class="form-control">
+            <label for="fullname">Fullname</label>
+            <input type="text" name="fullname" id="fullname">
+        </div>
+        <div class="form-control">
+            <label for="course">Course</label>
+            <select name="course" id="course">
+                <option value="bca">BCA</option>
+                <option value="bba">BBA</option>
+                <option value="bbs">BBS</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label for="gender">Gender</label>
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+            <label><input type="radio" name="gender" value="other"> Other</label>
+        </div>
+        <div class="form-control">
+            <label for="v_date">Visit Date</label>
+            <input type="date" name="v_date" id="v_date">
+        </div>
+        <div class="form-control">
+            <label for="y_question">Your Question</label>
+            <textarea name="y_question" id="y_question" rows="6"></textarea>
+        </div>
+        <div class="form-control">
+            <label><input type="checkbox" name="tnc" value="agree" id="tnc"> Agree</label>
+        </div>
+        <div class="form-control">
+           <button type="submit" onclick="submit_form()">Submit</button>
+           <button type="reset">Reset</button>
+        </div>
+
+
+
+    </form>
+    
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

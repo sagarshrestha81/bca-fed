@@ -1,0 +1,22 @@
+.box{
+    width: 200px;
+    height: 200px;
+    display: block;
+    background: #ff5f5f; 
+    transition: all ease .2s;
+}
+
+.box.circle{
+    border-radius: 50%;
+    background: #00ff00;
+}
+.box.rectangle{    
+    width: 300px;
+    background: #0000ff;
+}
+#msg.success{
+    color: #00ff00;
+}
+#msg.danger{
+    color: #ff0000;
+}
