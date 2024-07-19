@@ -51,13 +51,5 @@ function submit_form() {
         err_tnc.innerText = "Please tick agree to send message";
         validate=false;
     }
-
     return validate;
-
-
-
-
-
-
-
 }

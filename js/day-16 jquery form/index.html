@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <h1>Admission form</h1>
+    <form action="submit.php" method="get" onsubmit="return false">
+        <div class="form-control abc">
+            <label for="fullname">Fullname</label>
+            <input type="text" name="fullname" id="fullname" abc="vdbnjlcnlm">
+            <small id="err_fullname">tdrgyu</small>
+        </div>
+        <div class="form-control">
+            <label for="course">Course</label>
+            <select name="course" id="course">
+                <option value="">choose course</option>
+                <option value="bca">BCA</option>
+                <option value="bba">BBA</option>
+                <option value="bbs">BBS</option>
+            </select>
+            <small id="err_course"></small>
+        </div>
+
+        <div class="form-control">
+            <label for="gender">Gender</label>
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+            <label><input type="radio" name="gender" value="other"> Other</label>
+            <small id="err_gender"></small>
+        </div>
+        <div class="form-control">
+            <label for="v_date">Visit Date</label>
+            <input type="date" name="v_date" id="v_date">
+            <small id="err_v_date"></small>
+        </div>
+        <div class="form-control">
+            <label for="y_question">Your Question</label>
+            <textarea name="y_question" id="y_question" rows="6"></textarea>
+            <small id="err_y_question"></small>
+        </div>
+        <div class="form-control">
+            <label><input type="checkbox" name="tnc" value="agree" id="tnc"> Agree</label>
+            <small id="err_tnc"></small>
+
+        </div>
+        <div class="form-control">
+           <button type="submit" onclick="submit_form()">Submit</button>
+           <button type="reset">Reset</button>
+        </div>
+
+
+
+    </form>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+</html>
